@@ -12,7 +12,7 @@ RUN dbus-uuidgen --ensure
 
 USER node
 
-RUN npm install -g --acceptsuitecloudsdklicense @oracle/suitecloud-cli
+RUN npm install -g @oracle/suitecloud-cli
 
 WORKDIR /usr/src/app
 
